@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+  spring:
+    application:
+      name: Library_management_system
+
+    datasource:
+      url: jdbc:mysql://127.0.0.1:3306/mydb
+      username: root
+      password: Kabadi@123
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+    jpa:
+      show-sql: true
+
+      hibernate:
+        ddl-auto: update
+
